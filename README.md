@@ -8,10 +8,10 @@ URL: http://localhost/TPE-WEB-3/api/recurso Metodo: GET
 -Devuelve una coleccion de entidades del recurso especificado.
 -Codigo de respuesta: 200 OK, 400 Bad Request
 
-URL: http:///localhost/TPE-WEB-3/api/recurso/id Metodo: GET 
+URL: http:/git /localhost/TPE-WEB-3/api/recurso/id Metodo: GET 
 -Si se introduce un parametro ID, devulve un item especifico del recurso solicitado. Devuelve el objeto del item. -Codigo de respuesta: 200 OK, 404 Not Found
 
-URL: http:///localhost/TPE-WEB-3/api/recurso Metodo: POST 
+URL: http://localhost/TPE-WEB-3/api/recurso Metodo: POST 
 -Permite insertar un nuevo item a la tabla del recurso determinado. Devuelve el ID del ultimo item insertado sin necesidad de introducirle un ID.
 -Codigo de respuesta: 201 Created, 400 Bad Request
 
